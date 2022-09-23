@@ -1,0 +1,5 @@
+The assignment description
+https://docs.google.com/document/d/1KZnW8glSta0nu0FMgNwwSixsGfCwv1UIEhuikKV8YV8/edit?usp=sharing
+
+https://stackoverflow.com/questions/55921515/building-dockerfile-that-has-run-apt-get-update-gives-me-jailing-process-insi
+
