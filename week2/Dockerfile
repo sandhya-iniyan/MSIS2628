@@ -7,7 +7,7 @@ ENV JUPYTER_USER Yue
 RUN useradd -ms /bin/bash ${JUPYTER_USER}
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
-RUN pip3 install pandas
+# RUN pip3 install pandas
 
 EXPOSE 8888
 
