@@ -6,21 +6,20 @@ services:
     hostname: api
     environment:
       - name=value
-    working_dir: ./api
     volumes:
-      - ./api/code:/app
+      - ./api/code:/app/
+    working_dir: /app/
     ports:
       - "5001:5000"
-    command:
-      - pip3 install -r requirements.txt
-  # consumer:
-  #   build:  ./consumer/
-  #   hostname: consumer
-  #   environment:
-  #     - API_HOST=${API_HOST}
-  #     - API_PORT=${API_PORT}
-  #     - API_ENDPOINT=${API_ENDPOINT}
-  #   volumes:
-  #     - ./consumer/code:/app
-  #   ports:
-  #     - "8080:80"
+      
+  consumer:
+    build:  ./consumer/
+    hostname: consumer
+    environment:
+      - API_HOST=${API_HOST}
+      - API_PORT=${API_PORT}
+      - API_ENDPOINT=${API_ENDPOINT}
+    volumes:
+      - ./consumer/code:/app/
+    ports:
+      - "8080:80"
