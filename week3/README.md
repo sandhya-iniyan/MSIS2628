@@ -24,7 +24,7 @@
 
 ## Run under containter's /app directory
 
-```django-admin startproject web```
+```$django-admin startproject web```
 
 ## Run under the container's /app/web directory
 
