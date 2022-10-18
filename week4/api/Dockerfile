@@ -7,3 +7,4 @@ COPY requirements.txt /tmp/
 RUN pip3 install -r /tmp/requirements.txt
 
 EXPOSE 5000
+CMD [ "python", "api.py" ]
