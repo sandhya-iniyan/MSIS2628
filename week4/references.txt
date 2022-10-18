@@ -1,1 +1,3 @@
 https://riptutorial.com/flask/example/5303/render-template-usage
+
+https://stackoverflow.com/questions/49643331/socket-errorerrno-99-cannot-assign-requested-address-flask-and-python
