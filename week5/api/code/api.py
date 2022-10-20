@@ -15,12 +15,6 @@ def recommend_meal():
                             host=os.environ.get('DB_HOST'),
                             port=os.environ.get('DB_PORT'))
 
-    # conn = psycopg2.connect(database='root',
-    #                         user='root',
-    #                         password='thisispassword',
-    #                         host='db',
-    #                         port=5432)
-
     #Creating a cursor object using the cursor() method
     cursor = conn.cursor()
     #Retrieving data
