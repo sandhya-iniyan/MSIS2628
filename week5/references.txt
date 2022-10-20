@@ -1,0 +1,5 @@
+https://www.tutorialspoint.com/python_data_access/python_postgresql_select_data.htm
+
+https://hackersandslackers.com/configure-flask-applications/
+
+https://stackoverflow.com/questions/6523019/postgresql-scripting-psql-execution-with-password
