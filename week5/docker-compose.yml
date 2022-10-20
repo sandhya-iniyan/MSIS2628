@@ -4,6 +4,7 @@ services:
   api:
     build: ./api/
     hostname: api
+    restart: always
     environment:
       - API_PORT=${API_PORT}
       - DB_HOST=${DB_HOST}
@@ -19,6 +20,11 @@ services:
   consumer:
     build:  ./consumer/
     hostname: consumer
+    # Always restart the container regardless of the exit status. 
+    # When you specify always, the Docker daemon will try to restart the container indefinitely. 
+    # The container will also always start on daemon startup, regardless of the current state of the container.
+    # In this case this setting avoid me mannually restart the container frequently while changing the code.
+    restart: always 
     environment:
       - API_HOST=${API_HOST}
       - API_PORT=${API_PORT}

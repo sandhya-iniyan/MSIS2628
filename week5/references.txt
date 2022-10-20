@@ -3,3 +3,5 @@ https://www.tutorialspoint.com/python_data_access/python_postgresql_select_data.
 https://hackersandslackers.com/configure-flask-applications/
 
 https://stackoverflow.com/questions/6523019/postgresql-scripting-psql-execution-with-password
+
+https://stackoverflow.com/questions/41555884/docker-what-does-docker-run-restart-always-actually-do
