@@ -2,7 +2,7 @@ from flask import Flask
 import random
 import json
 import os
-#import psycopg2
+
 app = Flask(__name__)
 import psycopg2
 
